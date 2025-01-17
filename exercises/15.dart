@@ -1,4 +1,4 @@
-//Student Gerence
+//Student management
 
 import 'dart:io';
 
