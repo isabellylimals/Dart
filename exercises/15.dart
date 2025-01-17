@@ -56,6 +56,7 @@ void main() {
       String? searchName = stdin.readLineSync();
       if (searchName != null) {
         bool removed = false;
+        // percorre como uma lista e remove de acrodo com a condicao feita
         students.removeWhere((student) {
           if (student.name == searchName) {
             removed = true;
